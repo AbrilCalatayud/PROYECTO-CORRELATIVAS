@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - CORRELATIVAS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+        }
+        .career-menu {
+            margin: 0 auto;
+            max-width: 400px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .career-menu select, .career-menu button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .graph-list {
+            display: none;
+            margin-top: 20px;
+        }
+        .graph-list a {
+            display: block;
+            margin: 5px 0;
+            padding: 10px;
+            background-color: #0074D9;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .graph-list a:hover {
+            background-color: #0054a6;
+        }
+    </style>
+</head>
+<body>
+    <h1>BIENVENIDO A LOS GRAFOS DE CORRELTIVAS DE LAS CARRERAS DE LA FIE</h1>
+    <div class="career-menu">
+        <label for="career">Elija su carrera:</label>
+        <select id="career">
+            <option value="">--Elija su carrera--</option>
+            <option value="informatica">Ingeniería en Informática</option>
+            <option value="other-carrera">Otra carrera</option>
+            <!-- Add more career options as needed -->
+        </select>
+        <button onclick="showGraphs()">Mostrar grafos disponibles</button>
+    </div>
+
+    <div class="graph-list" id="graphList">
+        <h2>Grafos disponibles</h2>
+        <a href="PAGINA-PLAN-DE-ESTUDIOS-INFORMATICA-2015.html">Grafo Correlativas - Ingeniería en Informática - 2015</a>
+        <!-- Add more graph links as needed -->
+    </div>
+
+    <script>
+        function showGraphs() {
+            var career = document.getElementById('career').value;
+            var graphList = document.getElementById('graphList');
+            
+            if (career === "informatica") {
+                graphList.style.display = 'block';
+            } else {
+                alert('No hay grafos disponibles para su carrera');
+                graphList.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
