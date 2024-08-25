@@ -34,7 +34,7 @@
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         // Fetch the cyjs file from the same directory
-        fetch('data-correlativas-informatica-2015.cyjs')
+        fetch('data-grafos/data-correlativas-informatica-2015.cyjs')
             .then(response => response.json())
             .then(cyjsData => {
                 const cy = cytoscape({
