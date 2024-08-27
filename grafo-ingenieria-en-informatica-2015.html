@@ -25,8 +25,10 @@
 
 <div id="cy"></div>
 <div id="contextMenu" class="context-menu">
-    <button id="previo">Materias Previas</button>
-    <button id="posterior">Materias Posteriores</button>
+    <button id="immediatePrevio">Marcar las Materias Previas Inmediatas</button>
+    <button id="allPrevio">Marcar TODAS las Materias Previas</button>
+    <button id="immediatePosterior">Marcar las Materias Posteriores Inmediatas</button>
+    <button id="allPosterior">Marcar TODAS las Materias Posteriores</button>
 </div>
 
 <script src="https://unpkg.com/cytoscape@3.19.1/dist/cytoscape.min.js"></script>
@@ -112,36 +114,68 @@
                     let nodesToHighlight = [];
                     let queue = [node];
                     let visitedNodes = new Set();
+                    let depth = 0;
+                    
                     while (queue.length > 0) {
-                        let currentNode = queue.shift();
-                        if (visitedNodes.has(currentNode.id())) continue;
-                        visitedNodes.add(currentNode.id());
-                        nodesToHighlight.push(currentNode);
+                        let currentLevelSize = queue.length;
+                        let nextQueue = [];
+
+                        for (let i = 0; i < currentLevelSize; i++) {
+                            let currentNode = queue[i];
+                            if (visitedNodes.has(currentNode.id())) continue;
+                            visitedNodes.add(currentNode.id());
+                            nodesToHighlight.push(currentNode);
+                            
                         let connectedNodes;
                         if (direction === 'previo') {
                             connectedNodes = currentNode.incomers('node');
                         } else if (direction === 'posterior') {
                             connectedNodes = currentNode.outgoers('node');
                         }
+                            
                         connectedNodes.forEach(connectedNode => {
                             if (!visitedNodes.has(connectedNode.id())) {
-                                queue.push(connectedNode);
+                                nextQueue.push(connectedNode);
                             }
                         });
                     }
-            return nodesToHighlight;
+
+                    if (immediateOnly) {
+                        queue = [];  // This effectively stops the search after the first level without breaking.
+                    } else {
+                        queue = nextQueue;
+                    }
+
+                    depth++;
+                }
+                    
+                return nodesToHighlight;
         }
 
-        document.getElementById('previo').onclick = function () {
+        document.getElementById('immediatePrevio').onclick = function () {
             if (selectedNode) {
-                const nodes = collectConnectedNodes(selectedNode, 'previo');
+                const nodes = collectConnectedNodes(selectedNode, 'previo', true);
                 highlightNodes(nodes, 'highlighted-prev');
             }
         };
 
-        document.getElementById('posterior').onclick = function () {
+        document.getElementById('allPrevio').onclick = function () {
             if (selectedNode) {
-                const nodes = collectConnectedNodes(selectedNode, 'posterior');
+                const nodes = collectConnectedNodes(selectedNode, 'previo', false);
+                highlightNodes(nodes, 'highlighted-prev');
+            }
+        };
+        
+        document.getElementById('immediatePosterior').onclick = function () {
+            if (selectedNode) {
+                const nodes = collectConnectedNodes(selectedNode, 'posterior', true);
+                highlightNodes(nodes, 'highlighted-next');
+            }
+        };
+        
+        document.getElementById('allPosterior').onclick = function () {
+            if (selectedNode) {
+                const nodes = collectConnectedNodes(selectedNode, 'posterior', false);
                 highlightNodes(nodes, 'highlighted-next');
             }
         };
