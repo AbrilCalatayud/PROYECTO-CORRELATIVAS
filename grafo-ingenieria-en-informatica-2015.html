@@ -110,7 +110,7 @@
                     });
                 }
 
-                function collectConnectedNodes(node, direction) {
+                function collectConnectedNodes(node, direction, immediateOnly) {
                     let nodesToHighlight = [];
                     let queue = [node];
                     let visitedNodes = new Set();
