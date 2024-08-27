@@ -103,6 +103,10 @@
                 });
 
                 function highlightNodes(nodes, highlightClass) {
+                    // First, remove all previous highlights
+                    cy.nodes().removeClass('highlighted-prev highlighted-next');
+                    
+                    // Then, add highlights to the nodes passed in the function
                     nodes.forEach(node => {
                         if (node !== selectedNode) { // Exclude the selected node itself
                             node.addClass(highlightClass);
