@@ -125,7 +125,6 @@
                             let currentNode = queue[i];
                             if (visitedNodes.has(currentNode.id())) continue;
                             visitedNodes.add(currentNode.id());
-                            nodesToHighlight.push(currentNode);
                             
                         let connectedNodes;
                         if (direction === 'previo') {
@@ -133,12 +132,25 @@
                         } else if (direction === 'posterior') {
                             connectedNodes = currentNode.outgoers('node');
                         }
+                            
                         console.log(`Current node: ${currentNode.id()}, Connected nodes: ${connectedNodes.map(n => n.id()).join(', ')}`);   
-                        connectedNodes.forEach(connectedNode => {
-                            if (!visitedNodes.has(connectedNode.id())) {
-                                nextQueue.push(connectedNode);
-                            }
-                        });
+
+                        if (immediateOnly) {
+                            // Push only the direct connected nodes
+                            connectedNodes.forEach(connectedNode => {
+                                if (!visitedNodes.has(connectedNode.id())) {
+                                    nodesToHighlight.push(connectedNode);
+                                }
+                            });
+                        } else {
+                            // Push connected nodes to the queue for further exploration
+                            connectedNodes.forEach(connectedNode => {
+                                if (!visitedNodes.has(connectedNode.id())) {
+                                    nextQueue.push(connectedNode);
+                                }
+                            });
+                            nodesToHighlight.push(currentNode); // Include the current node as well
+                        }
                     }
 
                     if (immediateOnly) {
