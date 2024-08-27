@@ -114,7 +114,6 @@
                     let nodesToHighlight = [];
                     let queue = [node];
                     let visitedNodes = new Set();
-                    let depth = 0;
                     
                     while (queue.length > 0) {
                         let currentLevelSize = queue.length;
@@ -141,12 +140,11 @@
                     }
 
                     if (immediateOnly) {
-                        queue = [];  // This effectively stops the search after the first level without breaking.
+                        // Only highlight nodes at the current level
+                        return nodesToHighlight;
                     } else {
                         queue = nextQueue;
                     }
-
-                    depth++;
                 }
                     
                 return nodesToHighlight;
