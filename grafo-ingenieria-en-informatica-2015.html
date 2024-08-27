@@ -114,6 +114,7 @@
                     let nodesToHighlight = [];
                     let queue = [node];
                     let visitedNodes = new Set();
+                    let depth = 0;
                     
                     while (queue.length > 0) {
                         let currentLevelSize = queue.length;
@@ -147,6 +148,7 @@
                     } else {
                         queue = nextQueue;
                     }
+                    depth++;
                 }
                 console.log('Returning all nodes:', nodesToHighlight.map(n => n.id()));    
                 return nodesToHighlight;
