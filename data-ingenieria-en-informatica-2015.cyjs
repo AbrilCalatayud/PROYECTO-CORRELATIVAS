@@ -1,0 +1,1979 @@
+{
+  "format_version" : "1.0",
+  "generated_by" : "cytoscape-3.10.2",
+  "target_cytoscapejs_version" : "~2.1",
+  "data" : {
+    "shared_name" : "Hoja1",
+    "name" : "Hoja1",
+    "SUID" : 155,
+    "__Annotations" : [ ],
+    "selected" : true
+  },
+  "elements" : {
+    "nodes" : [ {
+      "data" : {
+        "id" : "473",
+        "shared_name" : "Ingeniería de Software Avanzado",
+        "name" : "Ingeniería de Software Avanzado",
+        "SUID" : 473,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 744.8941256830601,
+        "y" : 489.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "465",
+        "shared_name" : "Paradigmas de Programación VI",
+        "name" : "Paradigmas de Programación VI",
+        "SUID" : 465,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -48.85587431693989,
+        "y" : 489.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "453",
+        "shared_name" : "Diseño de Sistemas Informáticos II",
+        "name" : "Diseño de Sistemas Informáticos II",
+        "SUID" : 453,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 719.8941256830601,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "449",
+        "shared_name" : "Paradigmas de Programación V",
+        "name" : "Paradigmas de Programación V",
+        "SUID" : 449,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -120.10587431693989,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "445",
+        "shared_name" : "Sistemas Operativos II",
+        "name" : "Sistemas Operativos II",
+        "SUID" : 445,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 299.8941256830601,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "441",
+        "shared_name" : "Bases de Datos III",
+        "name" : "Bases de Datos III",
+        "SUID" : 441,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -15.10587431693989,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "425",
+        "shared_name" : "Práctica Profesional Supervisada",
+        "name" : "Práctica Profesional Supervisada",
+        "SUID" : 425,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 511.97745901639337,
+        "y" : 489.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "421",
+        "shared_name" : "Proyecto de Promoción y Síntesis",
+        "name" : "Proyecto de Promoción y Síntesis",
+        "SUID" : 421,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 56.14412568306011,
+        "y" : 489.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "417",
+        "shared_name" : "Sistemas de Comunicación Inalámbricas",
+        "name" : "Sistemas de Comunicación Inalámbricas",
+        "SUID" : 417,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -258.8558743169399,
+        "y" : 489.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "411",
+        "shared_name" : "Sistemas Optoelectrónicos",
+        "name" : "Sistemas Optoelectrónicos",
+        "SUID" : 411,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -153.8558743169399,
+        "y" : 489.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "407",
+        "shared_name" : "Organización Industrial",
+        "name" : "Organización Industrial",
+        "SUID" : 407,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 404.8941256830601,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "403",
+        "shared_name" : "Diseño de Sistemas Informáticos I",
+        "name" : "Diseño de Sistemas Informáticos I",
+        "SUID" : 403,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 719.8941256830601,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "397",
+        "shared_name" : "Bases de Datos II",
+        "name" : "Bases de Datos II",
+        "SUID" : 397,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -435.1058743169399,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "393",
+        "shared_name" : "Tecnología Electrónica",
+        "name" : "Tecnología Electrónica",
+        "SUID" : 393,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 194.8941256830601,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "389",
+        "shared_name" : "Técnicas Digitales I",
+        "name" : "Técnicas Digitales I",
+        "SUID" : 389,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -330.1058743169399,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "385",
+        "shared_name" : "Sistemas Operativos I",
+        "name" : "Sistemas Operativos I",
+        "SUID" : 385,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 299.8941256830601,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "381",
+        "shared_name" : "Sistemas de Comunicaciones II",
+        "name" : "Sistemas de Comunicaciones II",
+        "SUID" : 381,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -225.1058743169399,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "377",
+        "shared_name" : "Inteligencia Artificial",
+        "name" : "Inteligencia Artificial",
+        "SUID" : 377,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -540.1058743169399,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "373",
+        "shared_name" : "Paradigmas de Programación IV",
+        "name" : "Paradigmas de Programación IV",
+        "SUID" : 373,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -645.1058743169399,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "369",
+        "shared_name" : "Inglés 3",
+        "name" : "Inglés 3",
+        "SUID" : 369,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 528.6441256830601,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "363",
+        "shared_name" : "Bases de Datos I",
+        "name" : "Bases de Datos I",
+        "SUID" : 363,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -435.1058743169399,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "353",
+        "shared_name" : "Macroeconomía",
+        "name" : "Macroeconomía",
+        "SUID" : 353,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 404.8941256830601,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "349",
+        "shared_name" : "Criptografía y Seguridad Teleinformática",
+        "name" : "Criptografía y Seguridad Teleinformática",
+        "SUID" : 349,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -363.8558743169399,
+        "y" : 489.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "345",
+        "shared_name" : "Investigación Operativa",
+        "name" : "Investigación Operativa",
+        "SUID" : 345,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -129.4808743169399,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "341",
+        "shared_name" : "Métodos y Modelos",
+        "name" : "Métodos y Modelos",
+        "SUID" : 341,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 89.89412568306011,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "335",
+        "shared_name" : "Electrotecnia I",
+        "name" : "Electrotecnia I",
+        "SUID" : 335,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 71.14412568306011,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "329",
+        "shared_name" : "Física IV",
+        "name" : "Física IV",
+        "SUID" : 329,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -33.85587431693989,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "325",
+        "shared_name" : "Sistema de Comunicaciones I",
+        "name" : "Sistema de Comunicaciones I",
+        "SUID" : 325,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -225.1058743169399,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "321",
+        "shared_name" : "Técnicas Digitales II",
+        "name" : "Técnicas Digitales II",
+        "SUID" : 321,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -487.6058743169399,
+        "y" : 489.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "317",
+        "shared_name" : "Teoría de la Computación",
+        "name" : "Teoría de la Computación",
+        "SUID" : 317,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -540.1058743169399,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "313",
+        "shared_name" : "Paradigmas de Programación III",
+        "name" : "Paradigmas de Programación III",
+        "SUID" : 313,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -645.1058743169399,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "309",
+        "shared_name" : "Electrónica I",
+        "name" : "Electrónica I",
+        "SUID" : 309,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 176.1441256830601,
+        "y" : 74.50819672131149
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "305",
+        "shared_name" : "Arquitectura de Computadoras",
+        "name" : "Arquitectura de Computadoras",
+        "SUID" : 305,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 299.8941256830601,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "299",
+        "shared_name" : "Cálculo Numérico",
+        "name" : "Cálculo Numérico",
+        "SUID" : 299,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -234.4808743169399,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "295",
+        "shared_name" : "Análisis Matemático III",
+        "name" : "Análisis Matemático III",
+        "SUID" : 295,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 80.51912568306011,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "291",
+        "shared_name" : "Física III",
+        "name" : "Física III",
+        "SUID" : 291,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -24.48087431693989,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "285",
+        "shared_name" : "Administración Financiera",
+        "name" : "Administración Financiera",
+        "SUID" : 285,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 509.8941256830601,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "281",
+        "shared_name" : "Costos",
+        "name" : "Costos",
+        "SUID" : 281,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 404.8941256830601,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "277",
+        "shared_name" : "Inglés 2",
+        "name" : "Inglés 2",
+        "SUID" : 277,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 528.6441256830601,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "273",
+        "shared_name" : "Ecuaciones Diferenciales",
+        "name" : "Ecuaciones Diferenciales",
+        "SUID" : 273,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 185.5191256830601,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "263",
+        "shared_name" : "Álgebra Lineal",
+        "name" : "Álgebra Lineal",
+        "SUID" : 263,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 176.1441256830601,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "259",
+        "shared_name" : "Estructura de datos y Algoritmos",
+        "name" : "Estructura de datos y Algoritmos",
+        "SUID" : 259,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -416.3558743169399,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "255",
+        "shared_name" : "Paradigmas de Programación II",
+        "name" : "Paradigmas de Programación II",
+        "SUID" : 255,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -521.3558743169399,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "251",
+        "shared_name" : "Técnicas de Programación",
+        "name" : "Técnicas de Programación",
+        "SUID" : 251,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -663.8558743169399,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "245",
+        "shared_name" : "Probabilidad y Estadística",
+        "name" : "Probabilidad y Estadística",
+        "SUID" : 245,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -191.3558743169399,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "241",
+        "shared_name" : "Física II",
+        "name" : "Física II",
+        "SUID" : 241,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -43.23087431693989,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "237",
+        "shared_name" : "Análisis Matemático II",
+        "name" : "Análisis Matemático II",
+        "SUID" : 237,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 71.14412568306011,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "233",
+        "shared_name" : "Legislación para Ingenieros",
+        "name" : "Legislación para Ingenieros",
+        "SUID" : 233,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -444.4808743169399,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "229",
+        "shared_name" : "Higiene y Seguridad en el Trabajo yen el Medio Ambiente",
+        "name" : "Higiene y Seguridad en el Trabajo yen el Medio Ambiente",
+        "SUID" : 229,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 614.8941256830601,
+        "y" : 199.5081967213115
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "225",
+        "shared_name" : "Ingeniería de Sistemas Informáticos",
+        "name" : "Ingeniería de Sistemas Informáticos",
+        "SUID" : 225,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 719.8941256830601,
+        "y" : -35.49180327868851
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "221",
+        "shared_name" : "Matemática Discreta",
+        "name" : "Matemática Discreta",
+        "SUID" : 221,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 281.1441256830601,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "217",
+        "shared_name" : "Microeconomía",
+        "name" : "Microeconomía",
+        "SUID" : 217,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 423.6441256830601,
+        "y" : -220.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "213",
+        "shared_name" : "Inglés 1",
+        "name" : "Inglés 1",
+        "SUID" : 213,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 528.6441256830601,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "209",
+        "shared_name" : "Ingeniería, Sociedad y Estado",
+        "name" : "Ingeniería, Sociedad y Estado",
+        "SUID" : 209,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -549.4808743169399,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "205",
+        "shared_name" : "Álgebra y Geometría Analítica",
+        "name" : "Álgebra y Geometría Analítica",
+        "SUID" : 205,
+        "selected" : false
+      },
+      "position" : {
+        "x" : 80.51912568306011,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "201",
+        "shared_name" : "Sistemas de Representación",
+        "name" : "Sistemas de Representación",
+        "SUID" : 201,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -339.4808743169399,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "197",
+        "shared_name" : "Paradigmas de Programación I",
+        "name" : "Paradigmas de Programación I",
+        "SUID" : 197,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -234.4808743169399,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "193",
+        "shared_name" : "Química General I",
+        "name" : "Química General I",
+        "SUID" : 193,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -654.4808743169399,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "189",
+        "shared_name" : "Física I",
+        "name" : "Física I",
+        "SUID" : 189,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -24.48087431693989,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "185",
+        "shared_name" : "Análisis Matemático I",
+        "name" : "Análisis Matemático I",
+        "SUID" : 185,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -129.4808743169399,
+        "y" : -405.4918032786885
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "183",
+        "shared_name" : "Empezar la carrera",
+        "name" : "Empezar la carrera",
+        "SUID" : 183,
+        "selected" : false
+      },
+      "position" : {
+        "x" : -24.48087431693989,
+        "y" : -575.4918032786885
+      },
+      "selected" : false
+    } ],
+    "edges" : [ {
+      "data" : {
+        "id" : "479",
+        "source" : "453",
+        "target" : "425",
+        "shared_name" : "Diseño de Sistemas Informáticos II () Práctica Profesional Supervisada",
+        "name" : "Diseño de Sistemas Informáticos II () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 479,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "477",
+        "source" : "453",
+        "target" : "421",
+        "shared_name" : "Diseño de Sistemas Informáticos II () Proyecto de Promoción y Síntesis",
+        "name" : "Diseño de Sistemas Informáticos II () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 477,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "475",
+        "source" : "453",
+        "target" : "473",
+        "shared_name" : "Diseño de Sistemas Informáticos II () Ingeniería de Software Avanzado",
+        "name" : "Diseño de Sistemas Informáticos II () Ingeniería de Software Avanzado",
+        "interaction" : "",
+        "SUID" : 475,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "471",
+        "source" : "449",
+        "target" : "425",
+        "shared_name" : "Paradigmas de Programación V () Práctica Profesional Supervisada",
+        "name" : "Paradigmas de Programación V () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 471,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "469",
+        "source" : "449",
+        "target" : "421",
+        "shared_name" : "Paradigmas de Programación V () Proyecto de Promoción y Síntesis",
+        "name" : "Paradigmas de Programación V () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 469,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "467",
+        "source" : "449",
+        "target" : "465",
+        "shared_name" : "Paradigmas de Programación V () Paradigmas de Programación VI",
+        "name" : "Paradigmas de Programación V () Paradigmas de Programación VI",
+        "interaction" : "",
+        "SUID" : 467,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "483",
+        "source" : "445",
+        "target" : "425",
+        "shared_name" : "Sistemas Operativos II () Práctica Profesional Supervisada",
+        "name" : "Sistemas Operativos II () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 483,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "481",
+        "source" : "445",
+        "target" : "421",
+        "shared_name" : "Sistemas Operativos II () Proyecto de Promoción y Síntesis",
+        "name" : "Sistemas Operativos II () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 481,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "463",
+        "source" : "441",
+        "target" : "425",
+        "shared_name" : "Bases de Datos III () Práctica Profesional Supervisada",
+        "name" : "Bases de Datos III () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 463,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "461",
+        "source" : "441",
+        "target" : "421",
+        "shared_name" : "Bases de Datos III () Proyecto de Promoción y Síntesis",
+        "name" : "Bases de Datos III () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 461,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "439",
+        "source" : "407",
+        "target" : "425",
+        "shared_name" : "Organización Industrial () Práctica Profesional Supervisada",
+        "name" : "Organización Industrial () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 439,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "437",
+        "source" : "407",
+        "target" : "421",
+        "shared_name" : "Organización Industrial () Proyecto de Promoción y Síntesis",
+        "name" : "Organización Industrial () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 437,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "455",
+        "source" : "403",
+        "target" : "453",
+        "shared_name" : "Diseño de Sistemas Informáticos I () Diseño de Sistemas Informáticos II",
+        "name" : "Diseño de Sistemas Informáticos I () Diseño de Sistemas Informáticos II",
+        "interaction" : "",
+        "SUID" : 455,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "443",
+        "source" : "397",
+        "target" : "441",
+        "shared_name" : "Bases de Datos II () Bases de Datos III",
+        "name" : "Bases de Datos II () Bases de Datos III",
+        "interaction" : "",
+        "SUID" : 443,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "401",
+        "source" : "389",
+        "target" : "321",
+        "shared_name" : "Técnicas Digitales I () Técnicas Digitales II",
+        "name" : "Técnicas Digitales I () Técnicas Digitales II",
+        "interaction" : "",
+        "SUID" : 401,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "447",
+        "source" : "385",
+        "target" : "445",
+        "shared_name" : "Sistemas Operativos I () Sistemas Operativos II",
+        "name" : "Sistemas Operativos I () Sistemas Operativos II",
+        "interaction" : "",
+        "SUID" : 447,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "427",
+        "source" : "381",
+        "target" : "425",
+        "shared_name" : "Sistemas de Comunicaciones II () Práctica Profesional Supervisada",
+        "name" : "Sistemas de Comunicaciones II () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 427,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "423",
+        "source" : "381",
+        "target" : "421",
+        "shared_name" : "Sistemas de Comunicaciones II () Proyecto de Promoción y Síntesis",
+        "name" : "Sistemas de Comunicaciones II () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 423,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "419",
+        "source" : "381",
+        "target" : "417",
+        "shared_name" : "Sistemas de Comunicaciones II () Sistemas de Comunicación Inalámbricas",
+        "name" : "Sistemas de Comunicaciones II () Sistemas de Comunicación Inalámbricas",
+        "interaction" : "",
+        "SUID" : 419,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "415",
+        "source" : "381",
+        "target" : "349",
+        "shared_name" : "Sistemas de Comunicaciones II () Criptografía y Seguridad Teleinformática",
+        "name" : "Sistemas de Comunicaciones II () Criptografía y Seguridad Teleinformática",
+        "interaction" : "",
+        "SUID" : 415,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "413",
+        "source" : "381",
+        "target" : "411",
+        "shared_name" : "Sistemas de Comunicaciones II () Sistemas Optoelectrónicos",
+        "name" : "Sistemas de Comunicaciones II () Sistemas Optoelectrónicos",
+        "interaction" : "",
+        "SUID" : 413,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "451",
+        "source" : "373",
+        "target" : "449",
+        "shared_name" : "Paradigmas de Programación IV () Paradigmas de Programación V",
+        "name" : "Paradigmas de Programación IV () Paradigmas de Programación V",
+        "interaction" : "",
+        "SUID" : 451,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "399",
+        "source" : "363",
+        "target" : "397",
+        "shared_name" : "Bases de Datos I () Bases de Datos II",
+        "name" : "Bases de Datos I () Bases de Datos II",
+        "interaction" : "",
+        "SUID" : 399,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "409",
+        "source" : "353",
+        "target" : "407",
+        "shared_name" : "Macroeconomía () Organización Industrial",
+        "name" : "Macroeconomía () Organización Industrial",
+        "interaction" : "",
+        "SUID" : 409,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "431",
+        "source" : "341",
+        "target" : "425",
+        "shared_name" : "Métodos y Modelos () Práctica Profesional Supervisada",
+        "name" : "Métodos y Modelos () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 431,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "429",
+        "source" : "341",
+        "target" : "421",
+        "shared_name" : "Métodos y Modelos () Proyecto de Promoción y Síntesis",
+        "name" : "Métodos y Modelos () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 429,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "383",
+        "source" : "325",
+        "target" : "381",
+        "shared_name" : "Sistema de Comunicaciones I () Sistemas de Comunicaciones II",
+        "name" : "Sistema de Comunicaciones I () Sistemas de Comunicaciones II",
+        "interaction" : "",
+        "SUID" : 383,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "379",
+        "source" : "313",
+        "target" : "377",
+        "shared_name" : "Paradigmas de Programación III () Inteligencia Artificial",
+        "name" : "Paradigmas de Programación III () Inteligencia Artificial",
+        "interaction" : "",
+        "SUID" : 379,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "375",
+        "source" : "313",
+        "target" : "373",
+        "shared_name" : "Paradigmas de Programación III () Paradigmas de Programación IV",
+        "name" : "Paradigmas de Programación III () Paradigmas de Programación IV",
+        "interaction" : "",
+        "SUID" : 375,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "395",
+        "source" : "309",
+        "target" : "393",
+        "shared_name" : "Electrónica I () Tecnología Electrónica",
+        "name" : "Electrónica I () Tecnología Electrónica",
+        "interaction" : "",
+        "SUID" : 395,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "391",
+        "source" : "309",
+        "target" : "389",
+        "shared_name" : "Electrónica I () Técnicas Digitales I",
+        "name" : "Electrónica I () Técnicas Digitales I",
+        "interaction" : "",
+        "SUID" : 391,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "387",
+        "source" : "305",
+        "target" : "385",
+        "shared_name" : "Arquitectura de Computadoras () Sistemas Operativos I",
+        "name" : "Arquitectura de Computadoras () Sistemas Operativos I",
+        "interaction" : "",
+        "SUID" : 387,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "337",
+        "source" : "291",
+        "target" : "335",
+        "shared_name" : "Física III () Electrotecnia I",
+        "name" : "Física III () Electrotecnia I",
+        "interaction" : "",
+        "SUID" : 337,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "333",
+        "source" : "291",
+        "target" : "309",
+        "shared_name" : "Física III () Electrónica I",
+        "name" : "Física III () Electrónica I",
+        "interaction" : "",
+        "SUID" : 333,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "331",
+        "source" : "291",
+        "target" : "329",
+        "shared_name" : "Física III () Física IV",
+        "name" : "Física III () Física IV",
+        "interaction" : "",
+        "SUID" : 331,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "327",
+        "source" : "291",
+        "target" : "325",
+        "shared_name" : "Física III () Sistema de Comunicaciones I",
+        "name" : "Física III () Sistema de Comunicaciones I",
+        "interaction" : "",
+        "SUID" : 327,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "459",
+        "source" : "285",
+        "target" : "425",
+        "shared_name" : "Administración Financiera () Práctica Profesional Supervisada",
+        "name" : "Administración Financiera () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 459,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "457",
+        "source" : "285",
+        "target" : "421",
+        "shared_name" : "Administración Financiera () Proyecto de Promoción y Síntesis",
+        "name" : "Administración Financiera () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 457,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "355",
+        "source" : "281",
+        "target" : "353",
+        "shared_name" : "Costos () Macroeconomía",
+        "name" : "Costos () Macroeconomía",
+        "interaction" : "",
+        "SUID" : 355,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "371",
+        "source" : "277",
+        "target" : "369",
+        "shared_name" : "Inglés 2 () Inglés 3",
+        "name" : "Inglés 2 () Inglés 3",
+        "interaction" : "",
+        "SUID" : 371,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "275",
+        "source" : "263",
+        "target" : "273",
+        "shared_name" : "Álgebra Lineal () Ecuaciones Diferenciales",
+        "name" : "Álgebra Lineal () Ecuaciones Diferenciales",
+        "interaction" : "",
+        "SUID" : 275,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "367",
+        "source" : "259",
+        "target" : "321",
+        "shared_name" : "Estructura de datos y Algoritmos () Técnicas Digitales II",
+        "name" : "Estructura de datos y Algoritmos () Técnicas Digitales II",
+        "interaction" : "",
+        "SUID" : 367,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "365",
+        "source" : "259",
+        "target" : "363",
+        "shared_name" : "Estructura de datos y Algoritmos () Bases de Datos I",
+        "name" : "Estructura de datos y Algoritmos () Bases de Datos I",
+        "interaction" : "",
+        "SUID" : 365,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "361",
+        "source" : "255",
+        "target" : "317",
+        "shared_name" : "Paradigmas de Programación II () Teoría de la Computación",
+        "name" : "Paradigmas de Programación II () Teoría de la Computación",
+        "interaction" : "",
+        "SUID" : 361,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "359",
+        "source" : "255",
+        "target" : "299",
+        "shared_name" : "Paradigmas de Programación II () Cálculo Numérico",
+        "name" : "Paradigmas de Programación II () Cálculo Numérico",
+        "interaction" : "",
+        "SUID" : 359,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "357",
+        "source" : "255",
+        "target" : "313",
+        "shared_name" : "Paradigmas de Programación II () Paradigmas de Programación III",
+        "name" : "Paradigmas de Programación II () Paradigmas de Programación III",
+        "interaction" : "",
+        "SUID" : 357,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "323",
+        "source" : "251",
+        "target" : "321",
+        "shared_name" : "Técnicas de Programación () Técnicas Digitales II",
+        "name" : "Técnicas de Programación () Técnicas Digitales II",
+        "interaction" : "",
+        "SUID" : 323,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "319",
+        "source" : "251",
+        "target" : "317",
+        "shared_name" : "Técnicas de Programación () Teoría de la Computación",
+        "name" : "Técnicas de Programación () Teoría de la Computación",
+        "interaction" : "",
+        "SUID" : 319,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "315",
+        "source" : "251",
+        "target" : "313",
+        "shared_name" : "Técnicas de Programación () Paradigmas de Programación III",
+        "name" : "Técnicas de Programación () Paradigmas de Programación III",
+        "interaction" : "",
+        "SUID" : 315,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "351",
+        "source" : "245",
+        "target" : "349",
+        "shared_name" : "Probabilidad y Estadística () Criptografía y Seguridad Teleinformática",
+        "name" : "Probabilidad y Estadística () Criptografía y Seguridad Teleinformática",
+        "interaction" : "",
+        "SUID" : 351,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "347",
+        "source" : "245",
+        "target" : "345",
+        "shared_name" : "Probabilidad y Estadística () Investigación Operativa",
+        "name" : "Probabilidad y Estadística () Investigación Operativa",
+        "interaction" : "",
+        "SUID" : 347,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "343",
+        "source" : "245",
+        "target" : "341",
+        "shared_name" : "Probabilidad y Estadística () Métodos y Modelos",
+        "name" : "Probabilidad y Estadística () Métodos y Modelos",
+        "interaction" : "",
+        "SUID" : 343,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "339",
+        "source" : "245",
+        "target" : "299",
+        "shared_name" : "Probabilidad y Estadística () Cálculo Numérico",
+        "name" : "Probabilidad y Estadística () Cálculo Numérico",
+        "interaction" : "",
+        "SUID" : 339,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "303",
+        "source" : "241",
+        "target" : "291",
+        "shared_name" : "Física II () Física III",
+        "name" : "Física II () Física III",
+        "interaction" : "",
+        "SUID" : 303,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "301",
+        "source" : "237",
+        "target" : "299",
+        "shared_name" : "Análisis Matemático II () Cálculo Numérico",
+        "name" : "Análisis Matemático II () Cálculo Numérico",
+        "interaction" : "",
+        "SUID" : 301,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "297",
+        "source" : "237",
+        "target" : "295",
+        "shared_name" : "Análisis Matemático II () Análisis Matemático III",
+        "name" : "Análisis Matemático II () Análisis Matemático III",
+        "interaction" : "",
+        "SUID" : 297,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "293",
+        "source" : "237",
+        "target" : "291",
+        "shared_name" : "Análisis Matemático II () Física III",
+        "name" : "Análisis Matemático II () Física III",
+        "interaction" : "",
+        "SUID" : 293,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "289",
+        "source" : "237",
+        "target" : "273",
+        "shared_name" : "Análisis Matemático II () Ecuaciones Diferenciales",
+        "name" : "Análisis Matemático II () Ecuaciones Diferenciales",
+        "interaction" : "",
+        "SUID" : 289,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "435",
+        "source" : "229",
+        "target" : "425",
+        "shared_name" : "Higiene y Seguridad en el Trabajo yen el Medio Ambiente () Práctica Profesional Supervisada",
+        "name" : "Higiene y Seguridad en el Trabajo yen el Medio Ambiente () Práctica Profesional Supervisada",
+        "interaction" : "",
+        "SUID" : 435,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "433",
+        "source" : "229",
+        "target" : "421",
+        "shared_name" : "Higiene y Seguridad en el Trabajo yen el Medio Ambiente () Proyecto de Promoción y Síntesis",
+        "name" : "Higiene y Seguridad en el Trabajo yen el Medio Ambiente () Proyecto de Promoción y Síntesis",
+        "interaction" : "",
+        "SUID" : 433,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "405",
+        "source" : "225",
+        "target" : "403",
+        "shared_name" : "Ingeniería de Sistemas Informáticos () Diseño de Sistemas Informáticos I",
+        "name" : "Ingeniería de Sistemas Informáticos () Diseño de Sistemas Informáticos I",
+        "interaction" : "",
+        "SUID" : 405,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "311",
+        "source" : "221",
+        "target" : "309",
+        "shared_name" : "Matemática Discreta () Electrónica I",
+        "name" : "Matemática Discreta () Electrónica I",
+        "interaction" : "",
+        "SUID" : 311,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "307",
+        "source" : "221",
+        "target" : "305",
+        "shared_name" : "Matemática Discreta () Arquitectura de Computadoras",
+        "name" : "Matemática Discreta () Arquitectura de Computadoras",
+        "interaction" : "",
+        "SUID" : 307,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "287",
+        "source" : "217",
+        "target" : "285",
+        "shared_name" : "Microeconomía () Administración Financiera",
+        "name" : "Microeconomía () Administración Financiera",
+        "interaction" : "",
+        "SUID" : 287,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "283",
+        "source" : "217",
+        "target" : "281",
+        "shared_name" : "Microeconomía () Costos",
+        "name" : "Microeconomía () Costos",
+        "interaction" : "",
+        "SUID" : 283,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "279",
+        "source" : "213",
+        "target" : "277",
+        "shared_name" : "Inglés 1 () Inglés 2",
+        "name" : "Inglés 1 () Inglés 2",
+        "interaction" : "",
+        "SUID" : 279,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "271",
+        "source" : "205",
+        "target" : "245",
+        "shared_name" : "Álgebra y Geometría Analítica () Probabilidad y Estadística",
+        "name" : "Álgebra y Geometría Analítica () Probabilidad y Estadística",
+        "interaction" : "",
+        "SUID" : 271,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "269",
+        "source" : "205",
+        "target" : "241",
+        "shared_name" : "Álgebra y Geometría Analítica () Física II",
+        "name" : "Álgebra y Geometría Analítica () Física II",
+        "interaction" : "",
+        "SUID" : 269,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "267",
+        "source" : "205",
+        "target" : "237",
+        "shared_name" : "Álgebra y Geometría Analítica () Análisis Matemático II",
+        "name" : "Álgebra y Geometría Analítica () Análisis Matemático II",
+        "interaction" : "",
+        "SUID" : 267,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "265",
+        "source" : "205",
+        "target" : "263",
+        "shared_name" : "Álgebra y Geometría Analítica () Álgebra Lineal",
+        "name" : "Álgebra y Geometría Analítica () Álgebra Lineal",
+        "interaction" : "",
+        "SUID" : 265,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "261",
+        "source" : "197",
+        "target" : "259",
+        "shared_name" : "Paradigmas de Programación I () Estructura de datos y Algoritmos",
+        "name" : "Paradigmas de Programación I () Estructura de datos y Algoritmos",
+        "interaction" : "",
+        "SUID" : 261,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "257",
+        "source" : "197",
+        "target" : "255",
+        "shared_name" : "Paradigmas de Programación I () Paradigmas de Programación II",
+        "name" : "Paradigmas de Programación I () Paradigmas de Programación II",
+        "interaction" : "",
+        "SUID" : 257,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "253",
+        "source" : "197",
+        "target" : "251",
+        "shared_name" : "Paradigmas de Programación I () Técnicas de Programación",
+        "name" : "Paradigmas de Programación I () Técnicas de Programación",
+        "interaction" : "",
+        "SUID" : 253,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "249",
+        "source" : "189",
+        "target" : "241",
+        "shared_name" : "Física I () Física II",
+        "name" : "Física I () Física II",
+        "interaction" : "",
+        "SUID" : 249,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "247",
+        "source" : "185",
+        "target" : "245",
+        "shared_name" : "Análisis Matemático I () Probabilidad y Estadística",
+        "name" : "Análisis Matemático I () Probabilidad y Estadística",
+        "interaction" : "",
+        "SUID" : 247,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "243",
+        "source" : "185",
+        "target" : "241",
+        "shared_name" : "Análisis Matemático I () Física II",
+        "name" : "Análisis Matemático I () Física II",
+        "interaction" : "",
+        "SUID" : 243,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "239",
+        "source" : "185",
+        "target" : "237",
+        "shared_name" : "Análisis Matemático I () Análisis Matemático II",
+        "name" : "Análisis Matemático I () Análisis Matemático II",
+        "interaction" : "",
+        "SUID" : 239,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "235",
+        "source" : "183",
+        "target" : "233",
+        "shared_name" : "Empezar la carrera () Legislación para Ingenieros",
+        "name" : "Empezar la carrera () Legislación para Ingenieros",
+        "interaction" : "",
+        "SUID" : 235,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "231",
+        "source" : "183",
+        "target" : "229",
+        "shared_name" : "Empezar la carrera () Higiene y Seguridad en el Trabajo yen el Medio Ambiente",
+        "name" : "Empezar la carrera () Higiene y Seguridad en el Trabajo yen el Medio Ambiente",
+        "interaction" : "",
+        "SUID" : 231,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "227",
+        "source" : "183",
+        "target" : "225",
+        "shared_name" : "Empezar la carrera () Ingeniería de Sistemas Informáticos",
+        "name" : "Empezar la carrera () Ingeniería de Sistemas Informáticos",
+        "interaction" : "",
+        "SUID" : 227,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "223",
+        "source" : "183",
+        "target" : "221",
+        "shared_name" : "Empezar la carrera () Matemática Discreta",
+        "name" : "Empezar la carrera () Matemática Discreta",
+        "interaction" : "",
+        "SUID" : 223,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "219",
+        "source" : "183",
+        "target" : "217",
+        "shared_name" : "Empezar la carrera () Microeconomía",
+        "name" : "Empezar la carrera () Microeconomía",
+        "interaction" : "",
+        "SUID" : 219,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "215",
+        "source" : "183",
+        "target" : "213",
+        "shared_name" : "Empezar la carrera () Inglés 1",
+        "name" : "Empezar la carrera () Inglés 1",
+        "interaction" : "",
+        "SUID" : 215,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "211",
+        "source" : "183",
+        "target" : "209",
+        "shared_name" : "Empezar la carrera () Ingeniería, Sociedad y Estado",
+        "name" : "Empezar la carrera () Ingeniería, Sociedad y Estado",
+        "interaction" : "",
+        "SUID" : 211,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "207",
+        "source" : "183",
+        "target" : "205",
+        "shared_name" : "Empezar la carrera () Álgebra y Geometría Analítica",
+        "name" : "Empezar la carrera () Álgebra y Geometría Analítica",
+        "interaction" : "",
+        "SUID" : 207,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "203",
+        "source" : "183",
+        "target" : "201",
+        "shared_name" : "Empezar la carrera () Sistemas de Representación",
+        "name" : "Empezar la carrera () Sistemas de Representación",
+        "interaction" : "",
+        "SUID" : 203,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "199",
+        "source" : "183",
+        "target" : "197",
+        "shared_name" : "Empezar la carrera () Paradigmas de Programación I",
+        "name" : "Empezar la carrera () Paradigmas de Programación I",
+        "interaction" : "",
+        "SUID" : 199,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "195",
+        "source" : "183",
+        "target" : "193",
+        "shared_name" : "Empezar la carrera () Química General I",
+        "name" : "Empezar la carrera () Química General I",
+        "interaction" : "",
+        "SUID" : 195,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "191",
+        "source" : "183",
+        "target" : "189",
+        "shared_name" : "Empezar la carrera () Física I",
+        "name" : "Empezar la carrera () Física I",
+        "interaction" : "",
+        "SUID" : 191,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    }, {
+      "data" : {
+        "id" : "187",
+        "source" : "183",
+        "target" : "185",
+        "shared_name" : "Empezar la carrera () Análisis Matemático I",
+        "name" : "Empezar la carrera () Análisis Matemático I",
+        "interaction" : "",
+        "SUID" : 187,
+        "shared_interaction" : "",
+        "selected" : false
+      },
+      "selected" : false
+    } ]
+  }
+}
