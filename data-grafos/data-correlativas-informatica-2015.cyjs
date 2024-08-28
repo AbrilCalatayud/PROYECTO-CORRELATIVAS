@@ -13,8 +13,8 @@
     "nodes" : [ {
       "data" : {
         "id" : "475",
-        "shared_name" : "Ingeniería \nde Software \nAvanzado",
-        "name" : "Ingeniería \nde Software \nAvanzado",
+        "shared_name" : "Ingeniería de Software Avanzado",
+        "name" : "Ingeniería de Software Avanzado",
         "SUID" : 475,
         "selected" : false
       },
@@ -848,8 +848,8 @@
         "id" : "477",
         "source" : "455",
         "target" : "475",
-        "shared_name" : "Diseño de \nSistemas \nInformáticos II () Ingeniería \nde Software \nAvanzado",
-        "name" : "Diseño de \nSistemas \nInformáticos II () Ingeniería \nde Software \nAvanzado",
+        "shared_name" : "Diseño de \nSistemas \nInformáticos II () Ingeniería de Software Avanzado",
+        "name" : "Diseño de \nSistemas \nInformáticos II () Ingeniería de Software Avanzado",
         "interaction" : "",
         "SUID" : 477,
         "shared_interaction" : "",
