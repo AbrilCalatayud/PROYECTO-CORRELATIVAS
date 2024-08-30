@@ -23,6 +23,14 @@
 </head>
 <body>
 
+<div id="nodeSearch">
+    <label for="nodeDropdown">Buscar Materia:</label>
+    <select id="nodeDropdown">
+        <option value="">--Seleccionar Materia--</option>
+        <!-- Las materias serán añadidas acá dinámicamente -->
+    </select>
+</div>
+    
 <div id="cy"></div>
 <div id="contextMenu" class="context-menu">
     <button id="immediatePrevio">Marcar las Materias Previas Inmediatas</button>
@@ -78,9 +86,39 @@
                                 'border-color': '#0074D9'
                             }
                         }
+                        {
+                            selector: '.highlighted',
+                            style: {
+                                'background-color': '#FFFF00', // Yellow for selected node
+                                'border-width': '2px',
+                                'border-color': '#FFFF00'
+                            }
+                        }
                     ],
                     layout: {
                         name: 'preset',
+                    }
+                });
+                // Populate the dropdown menu
+                const nodeDropdown = document.getElementById('nodeDropdown');
+                cy.nodes().forEach(node => {
+                    const option = document.createElement('option');
+                    option.value = node.id();
+                    option.textContent = node.data('name');
+                    nodeDropdown.appendChild(option);
+                });
+
+                // Handle node selection from dropdown
+                nodeDropdown.addEventListener('change', function () {
+                    const selectedNodeId = this.value;
+                    if (selectedNodeId) {
+                        const node = cy.getElementById(selectedNodeId);
+                        cy.nodes().removeClass('highlighted');
+                        node.addClass('highlighted');
+                        cy.center(node);
+                        cy.zoom({ level: 2 }); // Adjust zoom level as needed
+                    } else {
+                        cy.nodes().removeClass('highlighted');
                     }
                 });
 
@@ -124,7 +162,6 @@
                         let currentLevelSize = queue.length;
                         let nextQueue = [];
 
-                        console.log(`Processing ${currentLevelSize} nodes at depth ${depth}`);
                         for (let i = 0; i < currentLevelSize; i++) {
                             let currentNode = queue[i];
                             if (visitedNodes.has(currentNode.id())) continue;
@@ -136,8 +173,6 @@
                         } else if (direction === 'posterior') {
                             connectedNodes = currentNode.outgoers('node');
                         }
-                            
-                        console.log(`Current node: ${currentNode.id()}, Connected nodes: ${connectedNodes.map(n => n.id()).join(', ')}`);   
 
                         if (immediateOnly) {
                             // Push only the direct connected nodes
@@ -158,15 +193,13 @@
                     }
 
                     if (immediateOnly) {
-                        console.log('Returning immediate nodes:', nodesToHighlight.map(n => n.id()));
                         // Only highlight nodes at the current level
                         return nodesToHighlight;
                     } else {
                         queue = nextQueue;
                     }
                     depth++;
-                }
-                console.log('Returning all nodes:', nodesToHighlight.map(n => n.id()));    
+                }  
                 return nodesToHighlight;
         }
 
