@@ -99,13 +99,27 @@
                         name: 'preset',
                     }
                 });
-                // Populate the dropdown menu
+
                 const nodeDropdown = document.getElementById('nodeDropdown');
-                cy.nodes().forEach(node => {
-                    const option = document.createElement('option');
-                    option.value = node.id();
-                    option.textContent = node.data('name');
-                    nodeDropdown.appendChild(option);
+                const nodes = cy.nodes().toArray();
+
+                // Create an array of options
+                const options = nodes.map(node => {
+                    return {
+                        value: node.id(),
+                        text: node.data('name')
+                    };
+                });
+    
+                // Sort the options array alphabetically by the text
+                options.sort((a, b) => a.text.localeCompare(b.text));
+    
+                // Add sorted options to the dropdown
+                options.forEach(option => {
+                    const opt = document.createElement('option');
+                    opt.value = option.value;
+                    opt.textContent = option.text;
+                    nodeDropdown.appendChild(opt);
                 });
 
                 // Handle node selection from dropdown
