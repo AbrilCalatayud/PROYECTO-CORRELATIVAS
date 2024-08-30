@@ -122,6 +122,14 @@
                     }
                 });
 
+                // Clear highlights on clicking elsewhere
+                cy.on('tap', function (event) {
+                    if (event.target === cy) { // Clicked outside any node
+                        cy.nodes().removeClass('highlighted');
+                        dropdown.value = ''; // Clear dropdown selection
+                    }
+                });
+
                 let selectedNode = null;
 
                 cy.on('tap', function (event) {
